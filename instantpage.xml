@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.8" type="plugin" group="system" method="upgrade">
+    <name>Instant.Page Joomla Plugin</name>
+    <author>Mateusz Hajder</author>
+    <creationDate>May - September 2020</creationDate>
+    <copyright>Copyright (C) 2020 Mateusz Hajder. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPLv3 or later</license>
+    <version>1.0.0</version>
+    <description>PLG_SYSTEM_INSTANTPAGE_DESC</description>
+    <files>
+        <filename plugin="instantpage">instantpage.php</filename>
+        <folder plugin="instantpage">js</folder>
+        <folder plugin="instantpage">language</folder>
+    </files>
+    <config>
+        <fields name="params">
+
+            <fieldset name="Basic">
+                <field
+                        name="version"
+                        type="list"
+                        class="dropdown"
+                        label="PLG_SYSTEM_INSTANTPAGE_OPTIONS_VERSION_LABEL"
+                        description="PLG_SYSTEM_INSTANTPAGE_OPTIONS_VERSION_DESCRIPTION"
+                        default="5.1.0"
+                >
+                    <option value="5.1.0">5.1.0</option>
+                    <option value="5.0.1">5.0.1</option>
+                    <option value="5.0.0">5.0.0</option>
+                    <option value="3.0.0">3.0.0</option>
+                    <option value="2.0.1">2.0.1</option>
+                    <option value="2.0.0">2.0.0</option>
+                    <option value="1.3.1">1.3.1</option>
+                    <option value="1.3.0">1.3.0</option>
+                    <option value="1.2.2">1.2.2</option>
+                    <option value="1.2.1">1.2.1</option>
+                    <option value="1.2.0">1.2.0</option>
+                    <option value="1.1.1">1.1.1</option>
+                    <option value="1.1.0">1.1.0</option>
+                    <option value="1.0.0">1.0.0</option>
+                </field>
+
+                <field
+                        name="official_cdn"
+                        type="radio"
+                        class="switcher"
+                        label="PLG_SYSTEM_INSTANTPAGE_OPTIONS_OFFICIAL_CDN_LABEL"
+                        description="PLG_SYSTEM_INSTANTPAGE_OPTIONS_OFFICIAL_CDN_DESCRIPTION"
+                        default="1"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+
+                <field
+                        name="defer"
+                        type="radio"
+                        class="switcher"
+                        label="PLG_SYSTEM_INSTANTPAGE_OPTIONS_DEFER_LABEL"
+                        description="PLG_SYSTEM_INSTANTPAGE_OPTIONS_DEFER_DESCRIPTION"
+                        default="0"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+
+                <field
+                        name="other_attributes"
+                        type="text"
+                        class="text"
+                        label="PLG_SYSTEM_INSTANTPAGE_OPTIONS_OTHER_ATTRIBUTES_LABEL"
+                        description="PLG_SYSTEM_INSTANTPAGE_OPTIONS_OTHER_ATTRIBUTES_DESCRIPTION"
+                >
+                </field>
+            </fieldset>
+
+        </fields>
+    </config>
+    <updateservers>
+        <server type="extension" priority="1" name="Instant.Page Joomla Plugin - Update Server">
+            https://raw.githubusercontent.com/mhajder/instant.page-joomla/master/update.xml
+        </server>
+    </updateservers>
+</extension>
