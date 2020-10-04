@@ -1,7 +1,7 @@
 <?php
 /**
- * @package         Instant.Page Joomla Plugin
- * @version         1.0.0
+ * @package         System - Unofficial instant.page
+ * @version         1.0.1
  * @copyright       Copyright (C) 2020 Mateusz Hajder. All rights reserved.
  * @license         http://www.gnu.org/licenses/gpl-3.0.html GNU/GPLv3 or later
  */

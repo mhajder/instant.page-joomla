@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.8" type="plugin" group="system" method="upgrade">
-    <name>Instant.Page Joomla Plugin</name>
+    <name>System - Unofficial instant.page</name>
     <author>Mateusz Hajder</author>
     <creationDate>May - September 2020</creationDate>
     <copyright>Copyright (C) 2020 Mateusz Hajder. All rights reserved.</copyright>
     <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPLv3 or later</license>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <description>PLG_SYSTEM_INSTANTPAGE_DESC</description>
     <files>
         <filename plugin="instantpage">instantpage.php</filename>
@@ -77,7 +77,7 @@
         </fields>
     </config>
     <updateservers>
-        <server type="extension" priority="1" name="Instant.Page Joomla Plugin - Update Server">
+        <server type="extension" priority="1" name="System - Unofficial instant.page - Update Server">
             https://raw.githubusercontent.com/mhajder/instant.page-joomla/master/update.xml
         </server>
     </updateservers>
