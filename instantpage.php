@@ -1,7 +1,7 @@
 <?php
 /**
  * @package         System - Unofficial instant.page
- * @version         1.0.1
+ * @version         1.0.2
  * @copyright       Copyright (C) 2020 Mateusz Hajder. All rights reserved.
  * @license         http://www.gnu.org/licenses/gpl-3.0.html GNU/GPLv3 or later
  */
@@ -32,6 +32,7 @@ class plgSystemInstantPage extends JPlugin
     public function onAfterRender()
     {
         $version_hashes = array(
+            '5.1.1' => 'sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq',
             '5.1.0' => 'sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw',
             '5.0.1' => 'sha384-0DvoZ9kNcB36fWcQApIMIGQoTzoBDYTQ85e8nmsfFOGz4RHAdUhADqJt4k3K2uLS',
             '5.0.0' => 'sha384-3Ye7Fh2Nd1zIjpuW5wbErksDUfqshUg7hMLM/b68dnbmCbQaMWI+cjHa8F8dXwEQ',
