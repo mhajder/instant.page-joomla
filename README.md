@@ -10,5 +10,5 @@ To install this plugin just download it from [Releases](https://github.com/mhajd
 
 * Instant.Page version - you can choose your preferred version with this setting (the latest by default)
 * Using the official CDN - you can decide if you want to use the official CDN or if you prefer to use local files (by default yes)
-* "defer" Attribute - you can decide if you want to include the "deffer" attribute (by default no)
+* "defer" Attribute - you can decide if you want to include the "defer" attribute (by default no)
 * Other "body" attributes - you can add your own attributes to the "body" tag

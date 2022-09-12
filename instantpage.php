@@ -1,7 +1,7 @@
 <?php
 /**
  * @package         System - Unofficial instant.page
- * @version         1.0.2
+ * @version         1.0.3
  * @copyright       Copyright (C) 2020 Mateusz Hajder. All rights reserved.
  * @license         http://www.gnu.org/licenses/gpl-3.0.html GNU/GPLv3 or later
  */
@@ -55,7 +55,7 @@ class plgSystemInstantPage extends JPlugin
         $official_cdn = $this->params->get('official_cdn', '');
         $defer = $this->params->get('defer', '');
         if ($defer == 1) {
-            $defer = ' deffer';
+            $defer = ' defer';
         } else {
             $defer = '';
         }
