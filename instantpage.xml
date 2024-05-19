@@ -22,8 +22,9 @@
                         class="dropdown"
                         label="PLG_SYSTEM_INSTANTPAGE_OPTIONS_VERSION_LABEL"
                         description="PLG_SYSTEM_INSTANTPAGE_OPTIONS_VERSION_DESCRIPTION"
-                        default="5.1.1"
+                        default="5.2.0"
                 >
+                    <option value="5.2.0">5.2.0</option>
                     <option value="5.1.1">5.1.1</option>
                     <option value="5.1.0">5.1.0</option>
                     <option value="5.0.1">5.0.1</option>
