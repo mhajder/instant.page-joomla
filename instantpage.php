@@ -1,7 +1,7 @@
 <?php
 /**
  * @package         System - Unofficial instant.page
- * @version         1.0.5
+ * @version         1.0.6
  * @copyright       Copyright (C) 2020 Mateusz Hajder. All rights reserved.
  * @license         http://www.gnu.org/licenses/gpl-3.0.html GNU/GPLv3 or later
  */
@@ -17,7 +17,7 @@ jimport('joomla.plugin.plugin');
  *
  * @since 1.0.0
  */
-class plgSystemInstantPage extends JPlugin
+class plgSystemInstantPage extends \Joomla\CMS\Plugin\CMSPlugin
 {
     /**
      * @var bool
@@ -50,7 +50,7 @@ class plgSystemInstantPage extends JPlugin
             '1.0.0' => 'sha384-6w2SekMzCkuMQ9sEbq0cLviD/yR2HfA/+ekmKiBnFlsoSvb/VmQFSi/umVShadQI',
         );
 
-        $app = JFactory::getApplication();
+        $app = \Joomla\CMS\Factory::getApplication();
         $plg_path = \JURI::root(true) . '/plugins/system/instantpage';
         $version = $this->params->get('version', '');
         $official_cdn = $this->params->get('official_cdn', '');

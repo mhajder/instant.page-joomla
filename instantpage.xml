@@ -5,7 +5,7 @@
     <creationDate>May - September 2020</creationDate>
     <copyright>Copyright (C) 2020 Mateusz Hajder. All rights reserved.</copyright>
     <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPLv3 or later</license>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <description>PLG_SYSTEM_INSTANTPAGE_DESC</description>
     <files>
         <filename plugin="instantpage">instantpage.php</filename>
