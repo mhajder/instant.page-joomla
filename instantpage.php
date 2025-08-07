@@ -1,7 +1,7 @@
 <?php
 /**
  * @package         System - Unofficial instant.page
- * @version         1.0.6
+ * @version         1.0.7
  * @copyright       Copyright (C) 2020 Mateusz Hajder. All rights reserved.
  * @license         http://www.gnu.org/licenses/gpl-3.0.html GNU/GPLv3 or later
  */
